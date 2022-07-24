@@ -295,13 +295,9 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
 exports.sewabot = (sender, prefix) => {
    return `
 ☞ *LIST HARGA SEWABOT*
- ➢ _2 Hari : Rp3.000_
- ➢ _5 Hari : Rp5.000_
- ➢ _1 Minggu : Rp7.000_
- ➢ _2 Minggu : Rp12.000_
- ➢ _1 Bulan : Rp15.000_
- ➢ _2 Bulan : Rp25.000_
- ➢ _3 Bulan : Rp45.000_
+ ➢ _2 Minggu : Rp5.000_
+ ➢ _1 Bulan : Rp10.000_
+ ➢ _2 Bulan : Rp15.000_
 
 _Hai Kak Mau Sewa Bot ??_
 _Untuk Fiturnya Bisa Di Cek #allmenu_
