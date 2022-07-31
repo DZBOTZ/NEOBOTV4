@@ -88,8 +88,8 @@ const connectToWhatsApp = async () => {
 	nocache('./message/help', module => console.log(chalk.yellow(`'./message/help.js' Telah diupdate`)))
 	nocache('./message/msg', module => console.log(chalk.yellow(`'./message/msg.js' Telah diupdate`)))
 	
-	conn.multi = true
-	conn.nopref = false
+	conn.multi = false
+	conn.nopref = true
 
 	conn.prefa = 'anjing'
 	conn.ev.on('messages.upsert', async m => {
